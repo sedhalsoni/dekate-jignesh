@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Dekate Jignesh - Account Executive"
+    />
+   <!--  <link rel="apple-touch-icon" sizes="57x57" href="%PUBLIC_URL%/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="%PUBLIC_URL%/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="%PUBLIC_URL%/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="%PUBLIC_URL%/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="%PUBLIC_URL%/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="%PUBLIC_URL%/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-icon-180x180.png"> -->
+    <link rel="icon" type="image/png" sizes="192x192"  href="%PUBLIC_URL%/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512"  href="%PUBLIC_URL%/android-chrome-512x512">
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Dekate Jignesh - Account Executive</title>
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .navbar {
+        background-color: #4169e1;
+      }
+      .navbar h3 {
+        display: inline-block;
+        text-align: left;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+      }
+      .navbar a {
+        display: inline-block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+      }
+      .page-info {
+        padding: 10px;
+      }
+      .Current {
+        color: #2e8b57;
+      }
+      .Completed {
+        color: #ff6347;
+        text-decoration: line-through;
+      }
+    </style>
+
+    <!-- Template CSS Files Start-->
+    <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/jquery.animatedheadline.css" rel="stylesheet">
+    <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/style.css" rel="stylesheet">
+    <link type="text/css" media="all" href="%PUBLIC_URL%/assets/css/skins/yellow.css" rel="stylesheet">
+    <!-- Template CSS Files End-->
+
+    <!-- Template JS Files Start-->
+    <script src="%PUBLIC_URL%/assets/js/modernizr.js"></script>
+    <!-- Template JS Files End-->
+
+    <!-- Live Style Switcher Start -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="%PUBLIC_URL%/assets/css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="%PUBLIC_URL%/assets/css/skins/goldrenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="%PUBLIC_URL%/assets/css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="%PUBLIC_URL%/assets/css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="%PUBLIC_URL%/assets/css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="%PUBLIC_URL%/assets/css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="%PUBLIC_URL%/assets/css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="%PUBLIC_URL%/assets/css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/css/styleswitcher.css" />
+    <!-- Live Style Switcher End -->
+  </head>
+  <body class="dark fullscreendark">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('worker.js').then(function(registration) {
+            console.log('Worker registration successful', registration.scope);
+          }, function(err) {
+            console.log('Worker registration failed', err);
+          }).catch(function(err) {
+            console.log(err);
+          });
+        });
+      } else {
+        console.log('Service Worker is not supported by browser.');
+      }
+    </script>
+     <!-- Template JS Files Start-->
+     <script src="%PUBLIC_URL%/assets/js/jquery-2.2.4.min.js"></script>
+     <script src="%PUBLIC_URL%/assets/js/jquery.animatedheadline.js"></script>
+     <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+     <script src="%PUBLIC_URL%/assets/js/transition.js"></script>
+     <!-- Template JS Files End-->
+
+     <!-- Live Style Switcher JS File - only demo -->
+     <script src="%PUBLIC_URL%/assets/js/styleswitcher.js"></script>
+
+     <!-- Main JS Initialization File -->
+     <script src="%PUBLIC_URL%/assets/js/custom.js"></script>
+  </body>
+</html>

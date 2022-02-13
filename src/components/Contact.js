@@ -136,7 +136,8 @@ export default class Contact extends Component {
                       </a>
                     </li>
                     <li className="youtube">
-                      <a title="Youtube" href="javascript:void(0);">
+                     {/*  // eslint-disable-next-line no-console */}
+                      <a title="Youtube" href="/#" onClick={(e) => e.preventDefault()}>
                         <i className="fa fa-youtube"></i>
                       </a>
                     </li>

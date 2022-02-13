@@ -4,7 +4,6 @@ import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import Blog from './components/Blog';
 import Loader from './components/Loader';
 import './index.css'
 
@@ -21,7 +20,6 @@ function App() {
           <About />
           <Work />
           <Contact />
-          <Blog />
         </main>
       </div>
       <Loader />

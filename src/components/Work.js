@@ -25,8 +25,8 @@ export default class Work extends Component {
           </div>
           <div className="portfolio-section">
             <div className="container cd-container">
-							<div class="alert alert-warning" role="alert">
-								<h5><strong className="text-center">Thanks for visit my portfolio!</strong></h5><hr class="my-12"/>
+							<div className="alert alert-warning" role="alert">
+								<h5><strong className="text-center">Thanks for visit my portfolio!</strong></h5><hr className="my-12"/>
 								<span className="portfolio-details-span">For some security reason I don't show my previous completed projects. If you need more about my projects. Please contact me using email <a href={`mailto:${this.state.email}`}>CLICK TO EMAIL</a> or phone <a href={`tel:${this.state.phone}`}>CLICK TO CALL</a>.</span>
 							</div>
             </div>

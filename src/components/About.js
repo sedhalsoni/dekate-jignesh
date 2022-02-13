@@ -174,7 +174,7 @@ export default class About extends Component {
                 </ul>
               </div>
               <div className="col-12 resume-btn-container">
-                <a href={process.env.PUBLIC_URL + 'assets/sedhal-soni-resume.doc'} className="btn btn-resume" download><span><i className="fa fa-download"></i>download my cv</span></a>
+                <a href={process.env.PUBLIC_URL + 'assets/DJ-resume.docx'} className="btn btn-resume" download><span><i className="fa fa-download"></i>download my cv</span></a>
               </div>
             </div>
           </div>

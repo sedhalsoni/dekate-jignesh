@@ -48,9 +48,27 @@ export default class About extends Component {
       }],
       skills: [{
         programingLanguage: 'Accounting',
-        skillPercentage: '100%',
-        skillCal: `calc(0% - 21px)`,
-        dataPercent: 100,
+        skillPercentage: '80%',
+        skillCal: `calc(20% - 21px)`,
+        dataPercent: 80,
+      },
+      {
+        programingLanguage: 'Indian Accounting',
+        skillPercentage: '80%',
+        skillCal: `calc(20% - 21px)`,
+        dataPercent: 80,
+      },
+      {
+        programingLanguage: 'QuickBooks',
+        skillPercentage: '96%',
+        skillCal: `calc(4% - 21px)`,
+        dataPercent: 96,
+      },
+      {
+        programingLanguage: 'VT Transaction+',
+        skillPercentage: '97%',
+        skillCal: `calc(3% - 21px)`,
+        dataPercent: 97,
       },
       {
         programingLanguage: 'Bookkeeping',
@@ -60,9 +78,33 @@ export default class About extends Component {
       },
       {
         programingLanguage: 'Value-Added Tax (VAT)',
-        skillPercentage: '85%',
-        skillCal: `calc(15% - 21px)`,
-        dataPercent: 85,
+        skillPercentage: '95%',
+        skillCal: `calc(5% - 21px)`,
+        dataPercent: 95,
+      },
+      {
+        programingLanguage: 'Telly',
+        skillPercentage: '97%',
+        skillCal: `calc(3% - 21px)`,
+        dataPercent: 97,
+      },
+      {
+        programingLanguage: 'Kashflow',
+        skillPercentage: '70%',
+        skillCal: `calc(30% - 21px)`,
+        dataPercent: 70,
+      },
+      {
+        programingLanguage: 'TaxCalc',
+        skillPercentage: '60%',
+        skillCal: `calc(40% - 21px)`,
+        dataPercent: 60,
+      },
+      {
+        programingLanguage: 'FreeAgent',
+        skillPercentage: '83%',
+        skillCal: `calc(17% - 21px)`,
+        dataPercent: 83,
       },
       {
         programingLanguage: 'management accounts',
@@ -71,16 +113,10 @@ export default class About extends Component {
         dataPercent: 85,
       },
       {
-        programingLanguage: 'Data Entry',
-        skillPercentage: '90%',
-        skillCal: `calc(10% - 21px)`,
-        dataPercent: 90,
-      },
-      {
-        programingLanguage: 'Data Analysis',
-        skillPercentage: '85%',
-        skillCal: `calc(15% - 21px)`,
-        dataPercent: 85,
+        programingLanguage: 'Data Entry And Analysis',
+        skillPercentage: '100%',
+        skillCal: `calc(0% - 21px)`,
+        dataPercent: 100,
       },
       {
         programingLanguage: 'Microsoft Office',
@@ -90,33 +126,27 @@ export default class About extends Component {
       },
       {
         programingLanguage: 'Sage 50',
-        skillPercentage: '75%',
-        skillCal: `calc(25% - 21px)`,
-        dataPercent: 75,
+        skillPercentage: '100%',
+        skillCal: `calc(0% - 21px)`,
+        dataPercent: 100,
       },
       {
         programingLanguage: 'Sage Accounts',
-        skillPercentage: '80%',
-        skillCal: `calc(20% - 21px)`,
-        dataPercent: 80,
+        skillPercentage: '76%',
+        skillCal: `calc(24% - 21px)`,
+        dataPercent: 76,
       },
       {
         programingLanguage: 'Sage 100 ERP',
-        skillPercentage: '80%',
-        skillCal: `calc(20% - 21px)`,
-        dataPercent: 80,
+        skillPercentage: '76%',
+        skillCal: `calc(24% - 21px)`,
+        dataPercent: 76,
       },
       {
         programingLanguage: 'Xero',
         skillPercentage: '85%',
         skillCal: `calc(15% - 21px)`,
         dataPercent: 85,
-      },
-      {
-        programingLanguage: 'Accounting Software',
-        skillPercentage: '80%',
-        skillCal: `calc(20% - 21px)`,
-        dataPercent: 80,
       }]
     }
   }

@@ -14,6 +14,7 @@ export default class About extends Component {
       email: 'd1993jignesh@gmail.com',
       skype: '-',
       linkdln: 'jignesh-dekate',
+      linkdln_profile: "https://www.linkedin.com/in/jignesh-dekate-80720690",
       aboutMe: 'My name is Dekate Jignesh. I have over 5+ years of experience in UK and Ireland base Account, Data Entry, Data Analysis, Bookkeeping, Prepare VAT, Prepare Account/ management accounts (Quarterly, Monthly, Yearly and half Yearly), MS office, Sage50, Sageone, Irish, VT, Kashflow, Xero, qb online and many other Software working.',
       experience: [{
         year: 'Feb-2020 - Present',
@@ -166,10 +167,15 @@ export default class About extends Component {
                     <h6><span className="font-weight-600">Email</span>{this.state.email}</h6>
                   </li>
                   <li>
-                    <h6><span className="font-weight-600">Skype</span>{this.state.skype}</h6>
-                  </li>
-                  <li>
-                    <h6><span className="font-weight-600">Linkdln</span>{this.state.linkdln}</h6>
+                    <h6><span className="font-weight-600">Linkdln</span><a
+                        className='white-color'
+                        title="Linkedin"
+                        href={this.state.linkdln_profile}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                       {this.state.linkdln}
+                      </a></h6>
                   </li>
                 </ul>
               </div>

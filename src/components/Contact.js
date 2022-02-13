@@ -18,8 +18,8 @@ export default class Contact extends Component {
       whatsup_default_message: "Hello how can i help you?",
       email_address: "d1993jignesh@gmail.com",
       linkedin: "jignesh-dekate",
-      linkdln_profile: "jignesh-dekate-80720690",
-      facebook: "people/Dekate-Jignesh/100007591245522",
+      linkdln_profile: "https://www.linkedin.com/in/jignesh-dekate-80720690",
+      facebook: "https://www.facebook.com/DDJJJDD",
       isSubmitted: false,
     };
   }
@@ -96,9 +96,15 @@ export default class Contact extends Component {
                     <h6 className="font-weight-600">
                       <span className="contact-title">Linkedin</span>
                       <i className="fa fa-linkedin"></i>
-                      <span className="contact-content">
+                      <a
+                        className="contact-content white-color"
+                        title="Linkedin"
+                        href={this.state.linkdln_profile}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
                         {this.state.linkedin}
-                      </span>
+                      </a>
                     </h6>
                   </li>
                 </ul>
@@ -118,7 +124,7 @@ export default class Contact extends Component {
                     <li className="facebook">
                       <a
                         title="Facebook"
-                        href={`https://www.facebook.com/${this.state.facebook}`}
+                        href={this.state.facebook}
                         rel="noopener noreferrer"
                         target="_blank"
                       >
@@ -128,7 +134,7 @@ export default class Contact extends Component {
                     <li className="linkedin">
                       <a
                         title="Linkedin"
-                        href={`https://www.linkedin.com/in/${this.state.linkdln_profile}`}
+                        href={this.state.linkdln_profile}
                         rel="noopener noreferrer"
                         target="_blank"
                       >
